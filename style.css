@@ -1,0 +1,11 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:"Comic Sans MS", cursive;
+	background: url(images/wood.jpg) no-repeat;
+	background-size:100%;
+
+}
