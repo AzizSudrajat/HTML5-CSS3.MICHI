@@ -133,3 +133,71 @@ header .right .button:hover{
 	width: 600px;
 	margin: auto;
 }
+
+/*article*/
+article {
+	background:url(images/character_pattern_2X.jpg) repeat;
+}
+
+article .articleContainer {
+	width:1000px;
+	margin:auto;
+	overflow: hidden;
+}
+
+article .articleContainer h1 {
+	color: #fff;
+	padding: 40px 0;
+	font-size: 45px;
+	text-align: center;
+}
+
+/*articleLeft*/
+article .articleContainer .articleLeft {
+	width: 500px;
+	float: left;
+	overflow: hidden;
+}
+
+article .articleContainer .articleLeft .content1{
+	margin: 40px 0;
+	overflow: hidden;
+}
+
+article .articleContainer .articleLeft .content1{
+	padding-bottom: 40px;
+}
+
+article .articleContainer .articleLeft .content1 .cLeft {
+	float: left;
+	width: 250px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+article .articleContainer .articleLeft .content1 .cLeft h2{
+	padding-bottom: 20px;
+}
+
+article .articleContainer .articleLeft .content1 .title h3{
+	width: 500px;
+	float: left;
+	padding-top: 20px;
+}
+
+article .articleContainer .articleLeft .content1 .cLeft h4 {
+	color: #e91717;
+}
+
+article .articleContainer .articleLeft .content1 .cLeft p{
+	color: #fff;
+}
+
+article .articleContainer .articleLeft .content1 .cRight{
+	float: right;
+	width: 250px;
+}
+
+article .articleContainer .articleLeft .content1 .cRight img{
+	width: 200px;
+}
