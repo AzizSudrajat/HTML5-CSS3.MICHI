@@ -111,3 +111,25 @@ header .right .button:hover{
 	width: 100%;
 	margin-top: 23px;
 }
+
+/*ORDER*/
+#order {
+	background:url(images/texture_pattern_2X.jpg) repeat;
+}
+
+#order h1 {
+	color: #9f1d37;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#order img {
+	margin: auto;
+	padding-bottom: 40px;
+	padding-top: 10px;
+}
+
+#order .orderContainer {
+	width: 600px;
+	margin: auto;
+}
