@@ -9,3 +9,105 @@ body {
 	background-size:100%;
 
 }
+
+/*HEADER*/
+.container {
+	width:1000px;
+	margin:auto;
+}
+
+header{
+	overflow:hidden;
+}
+
+header .schedule{
+	color:#fff;
+	font-size:25px;
+	overflow: hidden;
+}
+
+header .schedule h1 {
+	color:#fff;
+	font-size:90px;
+	text-align: center;
+}
+
+header .schedule .pLeft{
+	width: 400px;
+	float: left;
+	text-align: right;
+}
+
+header .schedule .pRight{
+	width: 400px;
+	float: right;
+	margin-left: 10px;
+}
+
+header .flex{
+	margin-top:50px;
+	overflow:hidden;
+	height:100px;
+}
+
+
+/*HEADER LEFT*/
+header .left{
+	width:200px;
+	float:left;
+}
+
+.left img {
+	width:100px;
+}
+
+/*HEADER RIGHT*/
+header .right{
+	width:750px;
+	float:right;
+	line-height:100px;
+}
+
+header .right .button{
+	border:1px solid #FFB600;
+	width:180px;
+	display:inline-block;
+	line-height: 22px;
+  margin-top: 27px;
+	background:#FFB600;
+	padding:5px 10px;
+	border-radius:5px;
+}
+
+header .right .button:hover{
+	border:1px solid #FF0004;
+	background:#FF0004;
+	color:#fff;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.right li {
+	list-style:none;
+	float:left;
+	text-align:center;
+	padding-right:50px;
+}
+
+.right li a {
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+}
+
+.right li a:hover {
+	color:#F00;
+}
+
+.wraping img {
+	width: 100%;
+	margin-top: 23px;
+}
