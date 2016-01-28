@@ -268,3 +268,9 @@ article .articleContainer .articleRight .content1 .cRight img{
 	padding-bottom: 40px;
 	text-align: center;
 }
+
+/*imgFooter*/
+.imgFooter .img1 img {
+	width: 451px;
+	margin-left: -5px;
+}
