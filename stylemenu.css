@@ -279,6 +279,7 @@ img{
 
 .topping p{
   text-align: center;
+  padding-bottom: 30px;
 }
 
 /*toopingsLeft*/
@@ -293,4 +294,29 @@ img{
   width: 500px;
 	float: right;
 	overflow: hidden;
+}
+
+/*toppingContent*/
+.content{
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.content h2{
+  color: #000000;
+  text-align: left;
+}
+
+.content p {
+  text-align: left;
+}
+
+.contentLeft{
+  width: 400px;
+  float: left;
+}
+
+.contentRight{
+  width: 100px;
+  float: right;
 }
