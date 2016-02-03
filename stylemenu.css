@@ -45,12 +45,12 @@ header .right{
 
 header .right .button{
 	border:1px solid #FFB600;
-	width:180px;
+	width:160px;
 	display:inline-block;
 	line-height: 22px;
   margin-top: 20px;
 	background:#FFB600;
-	padding:5px 10px;
+	padding:5px 20px;
 	border-radius:5px;
 }
 
@@ -93,6 +93,30 @@ header .right .button:hover{
 .location p{
   color: #fff;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px 0;
+}
+
+/*ORDER*/
+#order {
+	background:url(images/texture_pattern_2X.jpg) repeat;
+}
+
+#order h1 {
+	color: #9f1d37;
+	padding-top: 40px;
+	text-align: center;
+  font-size: 45px;
+}
+
+#order img {
+	padding-bottom: 40px;
+	padding-top: 10px;
+  width: 100%;
+
+}
+
+#order .orderContainer {
+	width: 1000px;
+	margin: auto;
 }

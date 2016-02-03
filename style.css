@@ -70,12 +70,12 @@ header .right{
 
 header .right .button{
 	border:1px solid #FFB600;
-	width:180px;
+	width:160px;
 	display:inline-block;
 	line-height: 22px;
   margin-top: 20px;
 	background:#FFB600;
-	padding:5px 10px;
+	padding:5px 20px;
 	border-radius:5px;
 }
 
@@ -306,11 +306,11 @@ footer table tr .container p{
 
 footer table tr .button{
 	border:1px solid #FFB600;
-	width:180px;
+	width:160px;
 	display:inline-block;
 	line-height: 22px;
 	background:#FFB600;
-	padding:5px 10px;
+	padding:5px 20px;
 	border-radius:5px;
 }
 
