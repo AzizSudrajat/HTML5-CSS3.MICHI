@@ -238,3 +238,10 @@ article .articleContainer .articleRight .content1 .cRight{
 article .articleContainer .articleRight .content1 .cRight img{
 	width: 200px;
 }
+
+
+
+/*general*/
+img{
+  width: 100%;
+}
