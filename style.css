@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family:"Comic Sans MS", cursive;
+	font-family: 'Open Sans', sans-serif;
 	background: url(images/wood.jpg) no-repeat;
 	background-size:100%;
 
@@ -73,7 +73,7 @@ header .right .button{
 	width:180px;
 	display:inline-block;
 	line-height: 22px;
-  margin-top: 27px;
+  margin-top: 20px;
 	background:#FFB600;
 	padding:5px 10px;
 	border-radius:5px;
@@ -109,7 +109,8 @@ header .right .button:hover{
 
 .wraping img {
 	width: 100%;
-	margin-top: 23px;
+	margin-top:30px;
+	-moz-margin-top:27px;
 }
 
 /*ORDER*/
@@ -265,13 +266,13 @@ article .articleContainer .articleRight .content1 .cRight img{
 
 #join h3{
 	color:#c8854e;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
 /*imgFooter*/
 .imgFooter .img1 img {
-	width: 451px;
+	width: 33.495%;
 	margin-left: -5px;
 }
 
@@ -308,7 +309,6 @@ footer table tr .button{
 	width:180px;
 	display:inline-block;
 	line-height: 22px;
-  margin-top: 27px;
 	background:#FFB600;
 	padding:5px 10px;
 	border-radius:5px;
