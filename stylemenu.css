@@ -135,7 +135,7 @@ article .articleContainer {
 article .articleContainer h1 {
 	color: #fff;
 	padding: 40px 0;
-	font-size: 45px;
+	font-size: 65px;
 	text-align: center;
 }
 
@@ -244,4 +244,53 @@ article .articleContainer .articleRight .content1 .cRight img{
 /*general*/
 img{
   width: 100%;
+}
+
+/*toopings*/
+.topping{
+  background:url(images/texture_pattern_2X.jpg) repeat;
+  margin-top: -5px;
+}
+
+.toppingContainer{
+  width:1000px;
+	margin:auto;
+	overflow: hidden;
+}
+
+.topping h1{
+  color: #c41515;
+	padding-top:40px;
+	font-size: 65px;
+	text-align: center;
+}
+
+.topping h2{
+  color: #d1b62a;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.topping h2 span{
+  text-align: center;
+  color: #000000;
+  padding-left:30px;
+}
+
+.topping p{
+  text-align: center;
+}
+
+/*toopingsLeft*/
+.toppingLeft{
+  width: 500px;
+	float: left;
+	overflow: hidden;
+}
+
+/*toopingsRight*/
+.toppingRight{
+  width: 500px;
+	float: right;
+	overflow: hidden;
 }
