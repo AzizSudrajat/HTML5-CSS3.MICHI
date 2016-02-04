@@ -354,3 +354,61 @@ img{
 	float: right;
 	overflow: hidden;
 }
+
+/*drinks*/
+.drinks{
+  background:url(images/texture_pattern_2X.jpg) repeat;
+  margin-top: -5px;
+	padding-bottom: 20px;
+}
+
+.drinksContainer{
+  width:1000px;
+	margin:auto;
+	overflow: hidden;
+}
+
+.drinks h1{
+  color: #c41515;
+	padding-top:40px;
+	font-size: 65px;
+	text-align: center;
+}
+
+.drinks h2{
+  color: #d1b62a;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.drinks p{
+  text-align: center;
+}
+
+.drinks ul {
+
+}
+
+.drinks ul li{
+	float: left;
+	width: 250px;
+	padding: 20px 0;
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+
+/*sidesLeft*/
+.drinksLeft{
+  width: 500px;
+	float: left;
+	overflow: hidden;
+}
+
+/*sidesRight*/
+.drinksRight{
+  width: 500px;
+	float: right;
+	overflow: hidden;
+}
