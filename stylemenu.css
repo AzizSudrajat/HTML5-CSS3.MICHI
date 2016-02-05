@@ -316,6 +316,14 @@ img{
   float: left;
 }
 
+.contentLeft h2{
+	text-align: left;
+}
+
+.contentLeft p {
+	text-align: left;
+}
+
 .contentRight{
   width: 100px;
   float: right;
@@ -380,12 +388,15 @@ img{
   text-align: center;
   padding-bottom: 10px;
 }
+
 .drinks p{
   text-align: center;
 }
 
-.drinks ul {
-
+.drinks h3{
+	font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .drinks ul li{
@@ -397,18 +408,61 @@ img{
 	font-size: 25px;
 }
 
-
-
-/*sidesLeft*/
+/*drinksLeft*/
 .drinksLeft{
   width: 500px;
 	float: left;
 	overflow: hidden;
 }
 
-/*sidesRight*/
+.drinksLeft .draftTop h2 {
+	text-align: left;
+	color: #000000;
+}
+
+.drinksLeft .draftBottom h2 {
+	text-align: right;
+	padding-right: 20px;
+	color: #000000;
+}
+
+/*drinksRight*/
 .drinksRight{
   width: 500px;
 	float: right;
 	overflow: hidden;
+}
+
+
+
+.drinksRight .content{
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.drinksRight .content h2{
+  color: #000000;
+  text-align: left;
+}
+
+.drinksRight .content p {
+  text-align: left;
+}
+
+.drinksRight .contentLeft{
+  width: 400px;
+  float: left;
+}
+
+.drinksRight .contentLeft h2{
+	text-align: left;
+}
+
+.drinksRight .contentLeft p {
+	text-align: left;
+}
+
+.drinksRight .contentRight{
+  width: 100px;
+  float: right;
 }
