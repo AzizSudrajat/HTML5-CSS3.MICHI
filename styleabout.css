@@ -100,8 +100,8 @@ header .right .button:hover{
 
 /*certified*/
 .certified {
-padding-bottom: 50px;
-overflow: hidden;
+  padding-bottom: 50px;
+  overflow: hidden;
 }
 
 .certified h1 {
@@ -130,7 +130,44 @@ overflow: hidden;
   float: right;
 }
 
+/*img1*/
 .img1 img{
   width: 33.495%;
   margin-left: -5px;
+}
+
+/*story*/
+.story{
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.story h1{
+  text-align: center;
+  padding: 50px 0 30px 0;
+  font-size: 50px;
+}
+
+.story p{
+  color: #657c6e;
+  padding: 0 55px;
+}
+
+.story p span {
+  color: #ff0000;
+}
+
+.story .container{
+  width: 1000px;
+  margin: auto;
+}
+
+.storyLeft{
+  width: 500px;
+  float: left;
+}
+
+.storyRight{
+  width: 500px;
+  float: right;
 }
