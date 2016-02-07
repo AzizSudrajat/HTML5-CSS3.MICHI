@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background:url(images/texture_pattern_2X.jpg) repeat;
 }
 
 /*HEADER*/
@@ -95,4 +96,41 @@ header .right .button:hover{
   text-align: center;
   font-size: 25px;
   padding: 10px 0;
+}
+
+/*certified*/
+.certified {
+padding-bottom: 50px;
+overflow: hidden;
+}
+
+.certified h1 {
+  text-align: center;
+  padding: 50px 0 30px 0;
+  font-size: 50px;
+}
+
+.certified p{
+  color: #657c6e;
+  padding: 0 40px;
+}
+
+.certified .container{
+  width: 1000px;
+  margin: auto;
+}
+
+.certifiedLeft{
+  width: 500px;
+  float: left;
+}
+
+.certifiedRight{
+  width: 500px;
+  float: right;
+}
+
+.img1 img{
+  width: 33.495%;
+  margin-left: -5px;
 }
