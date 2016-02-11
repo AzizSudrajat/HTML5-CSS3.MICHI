@@ -97,3 +97,40 @@ header .right .button:hover{
   font-size: 25px;
   padding: 10px 0;
 }
+
+/*article*/
+article{
+
+}
+
+article .container{
+  width: 1000px;
+  margin: auto;
+}
+
+article .container h1{
+  font-size: 65px;
+  text-align: center;
+  padding: 80px 0;
+}
+
+/*articleLeft*/
+.articleLeft {
+  width: 695px;
+  float: left;
+}
+
+.articleLeft img{
+	width: 100%;
+}
+
+.articleLeft .posted{
+	color: #debf3c;
+	padding-bottom: 30px;
+}
+
+/*articleRight*/
+.articleRight {
+  width: 300px;
+  float: right;
+}
