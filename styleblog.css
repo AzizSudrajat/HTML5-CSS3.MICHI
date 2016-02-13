@@ -100,7 +100,7 @@ header .right .button:hover{
 
 /*article*/
 article{
-
+	overflow: hidden;
 }
 
 article .container{
@@ -148,4 +148,58 @@ article .container h1{
 .articleRight {
   width: 300px;
   float: right;
+}
+
+/*footer*/
+footer{
+	background: #2e222e;
+	margin-top: -5px;
+	padding: 20px 0;
+}
+
+footer table tr .imgFooter{
+	width:200px;
+	margin:auto;
+}
+
+footer table tr .container {
+	width:600px;
+	margin:auto;
+	color: #fff;
+}
+
+footer table tr .container p{
+	text-align: center;
+}
+
+.button a{
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+}
+
+footer table tr .button{
+	border:1px solid #FFB600;
+	width:160px;
+	display:inline-block;
+	line-height: 22px;
+	background:#FFB600;
+	padding:5px 20px;
+	border-radius:5px;
+}
+
+footer table tr .button:hover{
+	border:1px solid #FF0004;
+	background:#FF0004;
+	color:#fff;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+footer img {
+	width: 200px;
+
 }
