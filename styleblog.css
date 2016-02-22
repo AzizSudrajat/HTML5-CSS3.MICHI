@@ -146,8 +146,48 @@ article .container h1{
 
 /*articleRight*/
 .articleRight {
-  width: 300px;
+  width: 255px;
   float: right;
+	padding-left: 50px;
+	overflow: hidden;
+}
+
+.articleRight .sosial h2{
+	color: #debf3c;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 29px;
+}
+
+.articleRight .sosial img {
+	width: 150px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+
+.articleRight .review{
+	overflow: hidden;
+}
+
+.articleRight .review .left {
+	width: 100px;
+	float: left;
+	overflow: hidden;
+}
+
+.articleRight .review .right {
+	width: 150px;
+	float: right;
+	overflow: hidden;
+}
+
+.articleRight .review .right img {
+	width: 80%;
+}
+
+.articleRight .recent h3{
+	text-align: center;
+	padding-top: 50px;
 }
 
 /*footer*/
