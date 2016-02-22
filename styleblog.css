@@ -181,6 +181,10 @@ article .container h1{
 	overflow: hidden;
 }
 
+.articleRight .review .right h3{
+	color: #657c6e;
+}
+
 .articleRight .review .right img {
 	width: 80%;
 }
@@ -188,6 +192,7 @@ article .container h1{
 .articleRight .recent h3{
 	text-align: center;
 	padding-top: 50px;
+	color: #657c6e;
 }
 
 /*content*/
@@ -204,8 +209,13 @@ article .container h1{
 	padding: 0 10px 5px 0;
 }
 
+.articleRight .content h3{
+	color: #657c6e;
+}
+
 .articleRight .content .note h3{
 	padding-bottom: 10px;
+	color: #657c6e;
 }
 
 .articleRight .content .note img{
