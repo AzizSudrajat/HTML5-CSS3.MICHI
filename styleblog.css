@@ -190,6 +190,38 @@ article .container h1{
 	padding-top: 50px;
 }
 
+/*content*/
+.articleRight .content{
+	padding: 20px 0 20px 50px;
+	width: 255px;
+	float: right;
+	overflow: hidden;
+}
+
+.articleRight .content img{
+	float: left;
+	width: 100px;
+	padding: 0 10px 5px 0;
+}
+
+.articleRight .content .note h3{
+	padding-bottom: 10px;
+}
+
+.articleRight .content .note img{
+	overflow: hidden;
+	padding-right: 20px;
+}
+
+.articleRight .content a{
+	text-decoration: none;
+	color: #af2f06;
+}
+
+.articleRight .content a:hover{
+	color: #f93307;
+}
+
 /*footer*/
 footer{
 	background: #2e222e;
