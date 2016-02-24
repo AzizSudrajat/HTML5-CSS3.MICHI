@@ -8,6 +8,10 @@ body {
   background:url(images/texture_pattern_2X.jpg) repeat;
 }
 
+body img{
+	width: 100%;
+}
+
 /*HEADER*/
 .container {
 	width:1000px;
